@@ -1,0 +1,32 @@
+body .head {
+  background-color: #f32f2f;
+  align-content: center;
+}
+body .head .head__titulo {
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+}
+body main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+body main .contenedor {
+  width: 300px;
+  margin-top: 10px;
+  border: #f32f2f 1px solid;
+  padding: 10px;
+}
+body main .contenedor .artista {
+  text-align: center;
+  font-size: 16px;
+}
+body main .contenedor .cancion {
+  font-size: 12px;
+  font-weight: 400;
+}
+body main .contenedor .time {
+  font-size: 10px;
+  text-align: end;
+}/*# sourceMappingURL=style.css.map */
