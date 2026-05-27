@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Songs from "./components/Song";
-import style from "../src/css/style.css"
+import "App.css"
 import React from "react";
 
 function App() {
