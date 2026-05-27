@@ -1,0 +1,47 @@
+body{
+    main{
+        .buscar{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            align-items: center;
+            
+            justify-items: center;
+           
+            margin-top: 10px;
+            border: #f32f2f 1px solid;
+            padding: 10px;
+
+            .buscar__flex{
+                
+                align-self: self-start;
+                margin: 10px 15px;
+                
+                .buscar__tittle{
+                    color: #f32f2f;
+                    
+                }
+            }
+
+            section{
+                form{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    .buscar__input{
+                        margin: 15px 0;
+                        
+                        input{
+                            width: 500px;
+                        }
+                        button{
+                            width: 150px;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+    }
+}

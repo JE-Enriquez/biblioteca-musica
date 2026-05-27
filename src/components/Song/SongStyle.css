@@ -1,0 +1,41 @@
+body main {
+  justify-items: center;
+}
+body main .songs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  width: 100%;
+  padding: 10px;
+}
+body main .songs .contenedor {
+  width: 300px;
+  margin: 10px 0;
+  border: #f32f2f 1px solid;
+  padding: 10px;
+  gap: 10px;
+}
+body main .songs .contenedor .artista {
+  text-align: center;
+  font-size: 16px;
+}
+body main .songs .contenedor .cancion {
+  font-size: 12px;
+  font-weight: 400;
+}
+body main .songs .contenedor .time {
+  font-size: 10px;
+  text-align: end;
+}
+body main .songs .contenedor div {
+  display: flex;
+  justify-content: end;
+}
+body main .songs .contenedor div .btn {
+  background-color: #f32f2f;
+  border-radius: 5px;
+  color: #fff;
+}
+body main .songs .contenedor div .btn:hover {
+  background-color: #e98282;
+}/*# sourceMappingURL=SongStyle.css.map */
