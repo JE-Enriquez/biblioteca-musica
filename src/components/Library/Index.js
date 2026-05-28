@@ -1,5 +1,5 @@
 import React from "react";
-import LibraryStyle from "./LibraryStyle.css"
+import "./LibraryStyle.css"
 
 const Library = ({myLibrary, setMiLibrary}) => {
 
