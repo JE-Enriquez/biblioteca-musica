@@ -1,0 +1,58 @@
+body{
+
+    
+
+    main{
+        justify-items: center;
+        .songs{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            justify-items: center;
+            width: 100%;
+            padding: 10px;
+            // padding: 10px 20px;
+            
+            .contenedor{
+                width: 300px;
+                margin: 10px 0;
+                border: #f32f2f 1px solid;
+                padding: 10px;
+                gap: 10px;
+
+                .artista{
+                    text-align: center;
+                    font-size: 16px;
+                    
+                }
+    
+                .cancion{
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+    
+                .time{
+                    font-size: 10px;
+                    text-align: end;
+                }
+                div{
+                    display: flex;
+                    justify-content: end;
+                    .btn{
+                        background-color: #f32f2f;
+                        border-radius: 5px;
+                        color: #fff;
+                        
+                        &:hover{
+                            background-color: #e98282;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+
+    }
+}
+
+

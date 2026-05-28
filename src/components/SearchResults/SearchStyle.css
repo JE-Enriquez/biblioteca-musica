@@ -1,0 +1,30 @@
+body main .buscar {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  border: #f32f2f 1px solid;
+  padding: 10px;
+}
+body main .buscar .buscar__flex {
+  align-self: self-start;
+  margin: 10px 15px;
+}
+body main .buscar .buscar__flex .buscar__tittle {
+  color: #f32f2f;
+}
+body main .buscar section form {
+  display: flex;
+  flex-direction: column;
+}
+body main .buscar section form .buscar__input {
+  margin: 15px 0;
+}
+body main .buscar section form .buscar__input input {
+  width: 500px;
+}
+body main .buscar section form .buscar__input button {
+  width: 150px;
+}/*# sourceMappingURL=SearchStyle.css.map */

@@ -1,0 +1,14 @@
+body main .library {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  border: #f32f2f 1px solid;
+  padding: 10px;
+}
+body main .library .library__tittle {
+  align-self: self-start;
+  color: #f32f2f;
+}/*# sourceMappingURL=LibraryStyle.css.map */
