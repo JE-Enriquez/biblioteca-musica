@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SearchStyle from "./SearchStyle.css"
+import "./SearchStyle.css"
 
 
 const SearchResults = ({textoBusqueda, setTextoBusqueda, canciones, agregarALibrary}) => {

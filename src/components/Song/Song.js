@@ -1,5 +1,5 @@
 import React from "react";
-import SongStyle from "./SongStyle.css"
+import "./SongStyle.css"
 
 
 
